@@ -1,0 +1,14 @@
+{
+  "!name": "extra_CD.js",
+  "exports": {
+    "C": {
+      "!type": "number",
+      "!span": "28[1:15]-29[1:16]"
+    },
+    "D": {
+      "!type": "fn()",
+      "!doc": "doc for D",
+      "!span": "68[4:19]-81[4:32]"
+    }
+  }
+}

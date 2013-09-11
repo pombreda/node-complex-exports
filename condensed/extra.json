@@ -1,0 +1,50 @@
+{
+  "!name": "extra.js",
+  "exports": {
+    "A": {
+      "!origin": "extra_AB.js",
+      "!symbol": "exports.A"
+    },
+    "C": {
+      "!origin": "extra_CD.js",
+      "!symbol": "exports.C"
+    },
+    "delete": {
+      "!origin": "extra_CD.js",
+      "!symbol": "exports.D"
+    },
+    "E": {
+      "!type": "fn(i: ?) -> number",
+      "!doc": "doc for E",
+      "!span": "613[26:7]-667[29:1]"
+    },
+    "F": {
+      "!origin": "extra_F.js",
+      "!symbol": "exports"
+    },
+    "G": {
+      "!origin": "extra_F.js",
+      "!symbol": "exports.F"
+    },
+    "H2": {
+      "!origin": "@node/querystring",
+      "!symbol": "exports.unescape"
+    },
+    "stringify": {
+      "!origin": "@node/querystring",
+      "!symbol": "exports.stringify"
+    },
+    "parse": {
+      "!origin": "@node/querystring",
+      "!symbol": "exports.parse"
+    },
+    "escape": {
+      "!origin": "@node/querystring",
+      "!symbol": "exports.escape"
+    },
+    "unescape": {
+      "!origin": "@node/querystring",
+      "!symbol": "exports.unescape"
+    }
+  }
+}

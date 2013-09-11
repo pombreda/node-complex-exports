@@ -1,0 +1,15 @@
+{
+  "!name": "extra_AB.js",
+  "exports": {
+    "A": {
+      "!type": "fn() -> string",
+      "!doc": "doc for A",
+      "!span": "13[1:0]-54[3:1]"
+    },
+    "B": {
+      "!type": "fn() -> number",
+      "!doc": "doc for B",
+      "!span": "77[6:8]-120[9:1]"
+    }
+  }
+}

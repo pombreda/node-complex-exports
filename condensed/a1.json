@@ -1,0 +1,9 @@
+{
+  "!name": "a1.js",
+  "exports": {
+    "A": {
+      "!origin": "cd1.js",
+      "!symbol": "exports.B"
+    }
+  }
+}
